@@ -1,0 +1,123 @@
+@import '@/assets/css/overrides.less';
+
+.layout {
+  color: @color-text;
+
+  a {
+    color: @color-text;
+  }
+}
+
+.header {
+  height: 1rem;
+  border-bottom: 1px solid #4e639b;
+  display: flex;
+  align-items: center;
+  font-size: max(0.2rem, 12px);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+
+  img {
+    height: 30px;
+  }
+}
+
+.menu {
+  margin-left: 2rem;
+  font-weight: 400;
+  flex: 1;
+  display: flex;
+  width: 0;
+
+  li {
+    color: rgba(255, 255, 255, 70%);
+
+    a {
+      color: rgba(255, 255, 255, 70%);
+    }
+  }
+
+  li + li {
+    margin-left: 0.3rem;
+  }
+
+  .active {
+    color: rgba(255, 255, 255);
+
+    a {
+      color: rgba(255, 255, 255);
+    }
+  }
+}
+
+.lang {
+  padding-right: 8px;
+}
+
+.mHeader {
+  padding: 0.22rem 0.25rem;
+  display: flex;
+}
+
+.mLogo {
+  display: flex;
+  align-items: center;
+  font-size: 0.3rem;
+  flex: 1;
+
+  img {
+    height: 0.5rem;
+  }
+}
+
+.menuIcon {
+  display: flex;
+  padding-right: 8px;
+  align-items: center;
+  font-size: 0.4rem;
+}
+
+.menuList :global(.adm-list-item) {
+  background: @color-black !important;
+}
+
+.menuItem {
+  color: @color-text;
+  font-size: 0.3rem;
+}
+
+.menuItemActive {
+  font-weight: 700 !important;
+}
+
+.overlay ul {
+  background: @color-black2 !important;
+  padding: 0 !important;
+}
+
+.overlay li {
+  height: 0.38rem !important;
+  padding: 0 !important;
+}
+
+.overlay a:hover {
+  background: #272333 !important;
+}
+
+.overlay a.active {
+  background: #272333 !important;
+}
+
+.overlay a {
+  color: @color-text !important;
+  font-size: 0.18px;
+  height: 0.38rem !important;
+  line-height: 0.38rem;
+  display: block;
+  border-radius: 4px;
+  text-indent: 8px !important;
+}

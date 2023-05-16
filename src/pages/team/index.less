@@ -1,0 +1,75 @@
+.team {
+  max-width: 930px;
+  margin: auto;
+  padding: 0.2rem;
+}
+
+.title {
+  margin-top: 0.48rem;
+  font-size: 0.48rem;
+}
+
+.content {
+  margin-top: 0.35rem;
+  font-size: max(0.16rem, 12px);
+}
+
+.roadmapItem {
+  display: flex;
+}
+
+.roadmapTime {
+  min-width: 40px;
+  width: 0.8rem;
+  font-size: max(0.24rem, 16px);
+  text-align: right;
+  font-weight: 400;
+  line-height: 0.4rem;
+}
+
+.roadmapLine {
+  position: relative;
+  width: 0.24rem;
+  margin: 0 0.2rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.08rem;
+    width: 0.24rem;
+    height: 0.24rem;
+    background: #1355ff;
+    border: 0.02rem solid #fff;
+    border-radius: 50%;
+    display: block;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0.32rem;
+    left: 50%;
+    transform: translateX(-50%);
+    height: calc(100% - 0.24rem);
+    border-left: 1px solid #fff;
+  }
+}
+
+.roadmapContent {
+  flex: 1;
+  width: 0;
+  font-size: max(0.2rem, 14px);
+  padding-left: 20px;
+  padding-bottom: 0.3rem;
+  padding-top: 0.04rem;
+
+  li {
+    list-style-type: disc;
+  }
+
+  li + li {
+    margin-top: 8px;
+  }
+}

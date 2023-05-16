@@ -1,0 +1,21 @@
+export default {
+  'layout.PeopleEquity': 'PeopleEquity',
+  'layout.EquitySwap': 'EquitySwap',
+  'layout.CreditData': '信用数据',
+  'layout.Wallet': '钱包',
+  'layout.Explore': '探索',
+  'layout.JoinOurCommunity': '加入我们的社区',
+  'layout.FooterP1': '聊一聊PeopleEquity，与其他用户建立网络，并回答您的问题。',
+  'layout.FooterP2':
+    '我们正在共同努力，利用区块链技术创造更公平、更可持续的财富分配。',
+  'layout.AboutUs': '关于我们',
+  'layout.Team': '团队',
+  'layout.Blogs': '博客',
+  'layout.Careers': '职业',
+  'layout.Technology': '技术',
+  'layout.Github': 'Github',
+  'layout.Community': '社区',
+  'layout.Telegram': 'Telegram',
+  'layout.Discord': 'Discord',
+  'layout.Twitter': 'Twitter',
+};

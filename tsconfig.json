@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "types": ["node", "webpack-env"]
+  },
+  "extends": "./src/.umi/tsconfig.json"
+}

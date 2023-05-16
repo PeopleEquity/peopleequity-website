@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "author": "linweiran <linweiran@alifocux.com>",
+  "scripts": {
+    "build": "max build",
+    "dev": "max dev",
+    "format": "prettier --cache --write .",
+    "postinstall": "max setup",
+    "prepare": "husky install",
+    "setup": "max setup",
+    "start": "npm run dev",
+    "tailwindcss": "max g tailwindcss"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@ant-design/pro-components": "^2.4.4",
+    "@umijs/max": "^4.0.67",
+    "antd": "^5.4.6",
+    "antd-mobile": "^5.29.1",
+    "react-spinners": "^0.13.8"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.0.11",
+    "@types/webpack-env": "^1.18.0",
+    "autoprefixer": "^10.4.14",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "tailwindcss": "^3",
+    "typescript": "^5.0.3"
+  }
+}
